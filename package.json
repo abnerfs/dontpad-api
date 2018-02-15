@@ -1,0 +1,27 @@
+{
+  "name": "dontpad-api",
+  "version": "1.0.0",
+  "description": "An unofficial API to read and write content to www.dontpad.com",
+  "main": "dontpad.js",
+  "dependencies": {
+    "jsdom": "^11.5.1",
+    "jsom": "^1.0.0",
+    "node-dom": "^0.1.0",
+    "node-fetch": "^2.0.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/abnerfs/dontpad-api"
+  },
+  "keywords": [
+    "dontpad.com",
+    "api"
+  ],
+  "author": "Abner Ferreira Santos",
+  "license": "MIT"
+}
