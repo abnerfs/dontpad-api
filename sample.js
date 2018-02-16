@@ -1,4 +1,4 @@
-const dontpad = require('./dontpad');
+const dontpad = require('./dontpad-api');
 
 const dontPadTarget = 'testdontpad';
 

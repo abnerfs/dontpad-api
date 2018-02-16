@@ -5,14 +5,14 @@ An unofficial API to read and write content to www.dontpad.com
 - NodeJS
 
 # Installation
-- Clone or download the project.
-- Open the cloned folder in command line and type **npm install** or **yarn** if you have it installed 
+```npm install --save dontpad-api```
+
 
 # Usage
 
 - Import the api to your file
 ```javascript 
-const dontpad = require('dontpad');
+const dontpad = require('dontpad-api');
 ```
 
 # Functions
@@ -26,7 +26,7 @@ const dontpad = require('dontpad');
 Writing and Reading content to a dontpad url
 
 ```javascript
-const dontpad = require('./dontpad');
+const dontpad = require('dontpad-api');
 
 const dontPadTarget = 'testdontpad';
 
