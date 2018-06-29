@@ -1,6 +1,6 @@
 {
   "name": "dontpad-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An unofficial API to read and write content to www.dontpad.com",
   "main": "dontpad-api.js",
   "dependencies": {
