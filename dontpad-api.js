@@ -38,10 +38,13 @@ function readContent(dontPad){
                 reject(err);
                 return;
             }
-    
-            const dom = new JSDOM(body);
-            let text = dom.window.document.getElementById('text').innerHTML;
-            resolve(text);
+            try{
+                const dom = new JSDOM(body);
+                let text = dom.window.document.getElementById('text').innerHTML;
+                resolve(text);
+            } catch(err){
+                reject(err);
+            }
         });
     }) 
 }
