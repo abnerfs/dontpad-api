@@ -1,8 +1,8 @@
 const dontpad = require('./dontpad-api');
 
-const dontPadTarget = 'testdontpad';
+const dontPadTarget = 'testdontpad/1.0.5';
 
-dontpad.writeContent(dontPadTarget, 'This is a test ')
+dontpad.writeContent(dontPadTarget, 'This is a test 1.0.5 ')
     .then(response => {
         console.log('Saved succesfully...');
         

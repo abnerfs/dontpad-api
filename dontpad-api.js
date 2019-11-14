@@ -5,7 +5,6 @@
 */
 
 const url = 'http://www.dontpad.com/';
-const request = require('request');
 const fetch = require('node-fetch');
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
@@ -24,34 +23,19 @@ function writeContent(dontPad, text){
 
 
 function readContent(dontPad){
-    const options = {
-        host: url + dontPad,
-        path: "/"
-    };
-    
-    let content = "";   
-    
-    return new Promise((resolve, reject) => {
-        request(url + dontPad, (err, response, body) =>{
-            if(err)
-            {
-                reject(err);
-                return;
-            }
-            try{
-                const dom = new JSDOM(body);
-                let text = dom.window.document.getElementById('text').innerHTML;
-                resolve(text);
-            } catch(err){
-                reject(err);
-            }
-        });
-    }) 
+    return fetch(`${url}${dontPad}`)
+        .then(res => res.text())
+        .then(body => {
+            const dom = new JSDOM(body);
+            return dom.window.document.getElementById('text').innerHTML;
+        })
 }
 
-module.exports = {
+const dontpad = {
     writeContent,
     readContent
 }
+
+module.exports = dontpad;
 
 

@@ -1,14 +1,11 @@
 {
   "name": "dontpad-api",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An unofficial API to read and write content to www.dontpad.com",
   "main": "dontpad-api.js",
   "dependencies": {
-    "jsdom": "^11.5.1",
-    "jsom": "^1.0.0",
-    "node-dom": "^0.1.0",
-    "node-fetch": "^2.0.0",
-    "request": "^2.83.0"
+    "jsdom": "^15.2.1",
+    "node-fetch": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
