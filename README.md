@@ -1,5 +1,8 @@
-# dontpad-api
-An unofficial API to read and write content to www.dontpad.com
+# Dontpad API
+
+![Downloads](https://img.shields.io/npm/dt/dontpad-api "Downloads")
+
+An unofficial API to read and write content to http://dontpad.com
 
 # Requirements
 - NodeJS
