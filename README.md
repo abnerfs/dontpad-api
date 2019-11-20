@@ -1,6 +1,6 @@
 # Dontpad API
 
-![Downloads](https://img.shields.io/npm/dt/dontpad-api "Downloads") ![Last commit](https://img.shields.io/github/last-commit/abnerfs/dontpad-api "Last Commit") ![Dependencies](https://img.shields.io/librariesio/github/abnerfs/dontpad-api "Dependencies")
+![Downloads](https://img.shields.io/npm/dt/dontpad-api "Downloads") ![Last commit](https://img.shields.io/github/last-commit/abnerfs/dontpad-api "Last Commit") ![Dependencies](https://img.shields.io/david/abnerfs/dontpad-api)
 
 An unofficial API to read and write content to http://dontpad.com
 
