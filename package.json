@@ -5,7 +5,7 @@
   "main": "dontpad-api.js",
   "dependencies": {
     "jsdom": "^15.2.1",
-    "node-fetch": "^2.0.0"
+    "node-fetch": "^3.1.1"
   },
   "devDependencies": {},
   "scripts": {
