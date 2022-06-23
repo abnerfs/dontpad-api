@@ -4,7 +4,7 @@
   "description": "An unofficial API to read and write content to www.dontpad.com",
   "main": "dontpad-api.js",
   "dependencies": {
-    "jsdom": "^15.2.1",
+    "jsdom": "^16.5.0",
     "node-fetch": "^2.0.0"
   },
   "devDependencies": {},
